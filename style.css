@@ -1,0 +1,54 @@
+h1,p,li {
+  color:orange;
+}
+
+.header a:link{
+  color:red;
+}
+
+.header a:visited{
+  color:white;
+}
+
+* img{
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+.grid{
+  display:flex;
+  justify-content: space-between;
+  padding-top:20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: black;
+ width:windowWidth;
+
+  font-family:sans-srief;
+}
+
+.header{
+  display: flex;
+  width:windowWidth;
+  justify-content: space-between;
+  background-color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: black;
+  padding-top:50px;
+}
+
+*{
+  text-align: center;
+}
+
+
+
+.item1:hover{
+  transform: scale(1.2);
+}
+
+.item2:hover{
+  transform: scale(1.2);
+}
